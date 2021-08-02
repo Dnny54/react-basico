@@ -1,0 +1,93 @@
+body {
+  background-color: #f0f2f5;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  margin: 6em 12em;
+}
+.cuerpo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 10em;
+  height: fit-content;
+  align-self: flex-start;
+}
+section {
+  align-self: flex-start;
+}
+h1 {
+  font-family: helvetica;
+  font-size: 30px;
+  font-weight: lighter;
+}
+p{
+  margin: .5em;
+  color: rgba(128, 128, 128, 0.9);
+
+}
+
+img{
+  width: 125px;
+  height: 130px;
+  border-radius: 5px 5px 0 0;
+}
+#carta{
+  width: 125px;
+  height: 175px;
+  border-radius: 5px;
+  text-align: center;
+  border: .5px solid rgba(128, 128, 128, 0.5);
+  position: relative;
+
+}
+button {
+  position: absolute;
+  z-index: 5;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.8);
+  color: white;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 350px;
+  margin: 2em 0;
+  border-radius: 8px;
+  border: transparent;
+  background-color: white;
+  box-shadow: .5px .5px 5px rgba(128, 128, 128, 0.5);
+}
+input {
+  padding: 1em;
+  font-size: medium;
+  margin: .8em;
+  border-radius: 8px;
+  border: .5px solid rgba(128, 128, 128, 0.3);
+}
+a {
+  align-self: center;
+}
+.btn{
+  text-align: center;
+}
+.btn-1 {
+  background-color: #1877f2;
+  color: white;
+  font-weight: bold;
+  border: transparent;
+}
+.btn-2 {
+  background-color: #42b72a;
+  color: white;
+  font-weight: bold;
+  border: transparent;
+  width: 12em;
+  align-self: center;
+}
